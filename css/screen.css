@@ -1,0 +1,65 @@
+.screen {
+   
+    box-sizing: border-box;
+}
+
+.screen-border {
+    padding: 1.5rem;
+    padding-block-end: 2.75rem ;
+    border-radius: .5rem;
+    background-color: var(--white);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 2rem 100%,0 calc(100% - 2.75rem));
+    
+    
+}
+
+.botton-mirror {
+    display: flex;
+    align-items: center ;
+    margin-left: 70px;
+    padding-bottom: px; 
+    padding-block: 14px;
+    /* border: 1px solid red; */
+}
+
+.button-red .uno {
+background-color: blue;
+ 
+}
+
+.button-red{
+    border-radius: 50%;
+    inline-size: 16px;
+    block-size: 16px;
+   
+    background-color: var(--primary);
+    border: none;
+    
+}
+
+.button-distribution{
+    display: flex;
+    gap: 16px;
+    /* border: 1px solid red */
+}
+
+.button-image{
+   
+    margin-left: 59px;
+    
+}
+
+
+.screen-safeArea {
+    padding: 1rem;
+    background-color: #8DB9DC;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    block-size: 10rem;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+   
+}

@@ -1,0 +1,48 @@
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 5.5rem;
+    grid-template-rows: auto auto 1fr;
+    gap: 1.5rem;
+    overflow: auto;
+    grid-template-areas: 'variants variants' 'search navigation' 'description navigation';
+    box-sizing: border-box;
+   
+}
+
+/* cambiar a rem */
+
+.variants{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.start-one {
+
+  inline-size: 52px;
+  block-size: 52px;
+  border-radius: 50%;
+  border: transparent;
+  background-color: var(--secondary);
+  filter: drop-shadow(2px 2px 0 var(--black))
+
+
+}
+
+.actions-tow {
+  inline-size:30px;
+  block-size:8px;
+  border-radius: 25%;
+  border: transparent ;
+  background-color: var(--yellow);
+ 
+}
+
+.actions-tow.tree {
+   
+    background-color: var(--secondary);
+    filter: drop-shadow(2px 2px 0 var(--black))
+}
