@@ -6,7 +6,7 @@
     overflow: auto;
     grid-template-areas: 'variants variants' 'search navigation' 'description navigation';
     box-sizing: border-box;
-   
+  
 }
 
 /* cambiar a rem */
@@ -16,14 +16,13 @@
     align-items: center;
     gap: 32px;
     box-sizing: border-box;
-    border: 1px solid blue;
-    box-sizing: border-box;
+   
 }
 
 .start-one {
 
-  inline-size: 52px;
-  block-size: 52px;
+  inline-size: 40px;
+  block-size: 40px;
   border-radius: 50%;
   border: transparent;
   background-color: var(--secondary);
